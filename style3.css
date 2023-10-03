@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-wrap: wrap;
+    flex-direction: column;
+
+}
+.one{
+    background-color: black;
+    width:100%;
+    height: 70px;
+    padding: 0 10px;
+}
+.two,.four,.six{
+    background-color: gray;
+    width:100%;
+    height: 50px;
+    padding: 0 10px;
+}
+.three,.five{
+    background-color: rgb(192, 191, 191);
+    width:100%;
+    height:50px;
+    padding: 0 10px;
+    
+}
+p{
+    display: flex;
+    color: white;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: justify;
+    
+}
+span {
+    flex: 1; 
+    text-align: center; 
+    white-space: wrap; 
+}

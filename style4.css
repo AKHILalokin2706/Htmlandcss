@@ -1,0 +1,44 @@
+/* Style for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+    gap: 10px; /* Adjust the vertical gap between divs */
+}
+
+/* Style for the table rows */
+.one, .two, .three, .four, .five, .six {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Distribute spans horizontally */
+    align-items: center;
+    height: 50px;
+    padding: 0 10px; /* Add horizontal padding for spacing */
+}
+
+/* Style for the span elements */
+span {
+    flex: 1; /* Each span takes equal width within the row */
+    text-align: center; /* Center the text within each span */
+    white-space: nowrap; /* Prevent wrapping of text within spans */
+}
+
+/* Style for the heading row */
+.one {
+    background-color: black;
+    height: 70px;
+    font-weight: bold; /* Make the text bold */
+    color: white;
+}
+
+/* Alternate background colors for rows */
+.two, .four, .six {
+    background-color: gray;
+}
+
+.three, .five {
+    background-color: rgb(192, 191, 191);
+}
